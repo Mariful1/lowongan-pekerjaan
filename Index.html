@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Lowongan Pekerjaan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="marquee">
+        Lowongan Pekerjaan Tersedia! Segera daftar untuk kesempatan terbaik di karir Anda!
+    </div>
+
+    <div class="container">
+        <h1>Selamat Datang di Portal Lowongan Pekerjaan</h1>
+        
+        <!-- Form Pencarian -->
+        <div class="section">
+            <h3>Cari Lowongan</h3>
+            <form id="searchForm">
+                <input type="text" placeholder="Posisi yang dicari" class="form-control" required>
+                <input type="text" placeholder="Lokasi" class="form-control mt-2">
+                <button type="submit" class="btn">Cari</button>
+            </form>
+        </div>
+
+        <!-- Daftar Lowongan -->
+        <div class="section" id="jobList">
+            <h3>Lowongan Terbaru</h3>
+            <!-- Lowongan akan ditampilkan di sini -->
+        </div>
+
+        <!-- Ulasan Pengunjung -->
+        <div class="section">
+            <h3>Ulasan Pengunjung</h3>
+            <form id="reviewForm">
+                <input type="text" placeholder="Nama Anda" class="form-control" required>
+                <input type="text" placeholder="Nama Perusahaan" class="form-control mt-2" required>
+                <textarea placeholder="Tulis ulasan Anda..." class="form-control mt-2" required></textarea>
+                <button type="submit" class="btn">Kirim Ulasan</button>
+            </form>
+
+            <div id="reviews" class="mt-4">
+                <!-- Ulasan akan ditambahkan di sini -->
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Portal Lowongan Pekerjaan. Semua hak dilindungi.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+      </html>
 
